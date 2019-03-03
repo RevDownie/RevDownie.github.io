@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</h1>
-<p class="meta">&lbrace;&lbrace; page.date | date_to_string &rbrace;&rbrace;</p>
+<p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
   {{content}}
