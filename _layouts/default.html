@@ -1,7 +1,7 @@
 <!DOCTYPE html>
         <html>
                 <head>
-                        <title>&lbrace;&lbrace; page.title &rbrace;&rbrace;</title>
+                         <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
                         <!-- link to main stylesheet -->
                         <link rel="stylesheet" type="text/css" href="/css/main.css">
                 </head>
@@ -15,12 +15,12 @@
                         </nav>
                         <div class="container">
                         
-                        &lbrace;&lbrace; content &rbrace;&rbrace;
+                        {{content}}
                         
                         </div><!-- /.container -->
                         <footer>
                         <ul>
-                                <li><a href="mailto:scott.downie@live.com">email</a></li>
+                                <li><a href="mailto:scott.downie@live.com">Email</a></li>
                                 <li><a href="https://github.com/RevDownie">GitHub</a></li>
                                 </ul>
                         </footer>
