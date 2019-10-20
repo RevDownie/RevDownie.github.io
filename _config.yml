@@ -1,4 +1,27 @@
-name: Program, Weep, Repeat
-description: Programming, Blogging and Outrageous Shorts...
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Program, Weep, Repeat
+tagline:          'Programming, Blogging and Outrageous Shorts'
+description:      'Ramblings, learnings and experiments'
+url:              http://www.program-weep-repeat.co.uk
+baseurl:          /
+
+author:
+  name:           'Scott Downie'
+  url:            https://twitter.com/rev_downie
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/revdownie
+
+plugins: [jekyll-paginate]
