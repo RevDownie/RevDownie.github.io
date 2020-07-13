@@ -3,7 +3,7 @@ layout: post
 title: Tom's Data Onion - A language a layer
 ---
 
-I stumbled across a new programming puzzle on *r/programming* called "Tom's Data Onion" (https://www.tomdalling.com/toms-data-onion/). The puzzle (well actually set of puzzles) is built in layers such that solving one layer generates the instructions for the next layer. I'm not going to cover how I solved the puzzles (my solutions are on GitHub if anyone is interested https://github.com/RevDownie/TomsDataOnion) but instead talk a little bit about the languages I used to solve the puzzles. 
+I stumbled across a new programming puzzle on *r/programming* called ["Tom's Data Onion"](https://www.tomdalling.com/toms-data-onion/). The puzzle (well actually set of puzzles) is built in layers such that solving one layer generates the instructions for the next layer. I'm not going to cover how I solved the puzzles (my solutions are on [GitHub](https://github.com/RevDownie/TomsDataOnion) if anyone is interested) but instead talk a little bit about the languages I used to solve the puzzles. 
 
 I do quite a lot of coding challenges (CodinGame, Reddit Daily Programmer, Advent of Code, etc) mostly because I enjoy them but partly because I see them as a good opportunity to practice langauges I've not worked in for a while and also as a way to learn and test out new languages. I thought it would be fun to try and solve each layer of the Onion in a different language (BTW before this I'd never written an ascii85 decoder and now I have about 4 in various states of completeness).
 
