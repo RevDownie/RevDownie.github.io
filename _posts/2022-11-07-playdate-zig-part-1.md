@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Playdate Zig - Part 1: Window's Simulator
+title: Playdate Zig - Part 1 Window's Simulator
 ---
 
 As I'm still waiting on the arrival of my actual Playdate I figured I'd get up and running on the Window's simulator. I wanted to use Zig as I haven't had a chance to do any game dev with it and it has great interoperability with C - so figured it would be ideal for Playdate.
